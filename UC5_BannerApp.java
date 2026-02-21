@@ -1,11 +1,19 @@
-public class UC2_BannerApp {
+public class UC5_BannerApp {
+
     public static void main(String[] args) {
-        System.out.println("  ***    ***    *****   ***** ");
-        System.out.println(" *   *  *   *   *    *  *     ");
-        System.out.println("*     **     *  *    *  *     ");
-        System.out.println("*     **     *  *****   ***** ");
-        System.out.println("*     **     *  *           * ");
-        System.out.println(" *   *  *   *   *           * ");
-        System.out.println("  ***    ***    *       ***** ");
+
+        String[] banner = {
+            String.join("   ", " ***** ", " ***** ", " **** ", " ***** "),
+            String.join("   ", "*     *", "*     *", "*   *", "*     "),
+            String.join("   ", "*     *", "*     *", "**** ", " *** "),
+            String.join("   ", "*     *", "*     *", "*    ", "    *"),
+            String.join("   ", "*     *", "*     *", "*    ", "    *"),
+            String.join("   ", "*     *", "*     *", "*    ", "    *"),
+            String.join("   ", " ***** ", " ***** ", "*    ", " ***** ")
+        };
+
+        for (String line : banner) {
+            System.out.println(line);
+        }
     }
 }
