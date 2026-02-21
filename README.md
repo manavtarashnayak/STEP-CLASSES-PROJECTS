@@ -16,4 +16,8 @@ Learn Object-Oriented Programming (OOP) concepts
 
 Develop logical thinking and coding skills
 
+<<<<<<< HEAD
 Prepare for academic and technical interviews
+=======
+Prepare for academic and technical interviews
+>>>>>>> f4bef7156a9cf3412fa304619ff68746f0c552e5
