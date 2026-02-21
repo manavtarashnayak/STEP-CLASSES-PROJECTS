@@ -1,11 +1,21 @@
-public class UC2_BannerApp {
+public class UC6_BannerApp {
+    public static String[] getOOPSpattern() {
+        return new String[]{
+
+                "  ***    ***    *****   ***** ",
+                " *   *  *   *   *    *  *     ",
+                "*     **     *  *    *  *     ",
+                "*     **     *  *****   ***** ",
+                "*     **     *  *           * ",
+                " *   *  *   *   *           * ",
+                "  ***    ***    *       ***** "
+        };
+    }
+
     public static void main(String[] args) {
-        System.out.println("  ***    ***    *****   ***** ");
-        System.out.println(" *   *  *   *   *    *  *     ");
-        System.out.println("*     **     *  *    *  *     ");
-        System.out.println("*     **     *  *****   ***** ");
-        System.out.println("*     **     *  *           * ");
-        System.out.println(" *   *  *   *   *           * ");
-        System.out.println("  ***    ***    *       ***** ");
+        String[] str=getOOPSpattern();
+       for(int i=0;i<str.length;i++){
+           System.out.println(str[i]);
+       }
     }
 }
