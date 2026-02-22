@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**
  * OOPSBannerApp
  * UC1: Print literal text "OOPS" to console.
@@ -14,5 +15,16 @@ public class OOPSBannerApp {
 
         // Printing literal text
         System.out.println("OOPS");
+=======
+public class OOPSBannerApp {
+    public static void main(String[] args) {
+        System.out.println("  ***    ***    *****   ***** ");
+        System.out.println(" *   *  *   *   *    *  *     ");
+        System.out.println("*     **     *  *    *  *     ");
+        System.out.println("*     **     *  *****   ***** ");
+        System.out.println("*     **     *  *           * ");
+        System.out.println(" *   *  *   *   *           * ");
+        System.out.println("  ***    ***    *       ***** ");
+>>>>>>> UC2-PrintBanner
     }
 }
